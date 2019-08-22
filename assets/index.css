@@ -75,9 +75,10 @@ li {
  top: -150px;
  left: 50px;
  text-align: center;
+ border: solid black 2px;
+ }
 
-}
-#columnR {
+ #columnR {
  width: 512px; 
  height: 100px;
  background-color: brown; 
@@ -86,4 +87,8 @@ li {
  top: -212.5px;
  left: -50px;
  text-align: center;
+ border: solid black 2px;
+}
+h3 {
+   color: darkslategray;
 }
