@@ -1,0 +1,68 @@
+body {
+   background-color: lightgrey;
+}
+
+#container {
+   height: 400px;
+   width: 850px;
+   margin: auto;
+   
+}
+
+#nav {
+   background-color: white;
+   height: 50px;
+   padding-bottom: 5px;
+   padding-right: 200px;
+
+}
+
+#space {
+   background-color: blue;
+   height: 300px;
+}
+
+li {
+   float: left;
+   padding: 4px;
+}
+ ul {
+   list-style: none;
+   float: right;
+ }
+ #buttons {
+    background: white;
+    padding: 2px;
+    border: 1px;
+    border: black;
+    }
+
+ #Picbox {
+    height: 250px;
+    width: 250px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    border: solid black 2px;
+    
+}
+#website {
+   height: 120px;
+   width: 300px;
+   background-color: blue;
+   position: relative;
+   z-index: 2;
+   top: -250px;
+   left: 370px;
+   color: white;
+}
+#clicky {
+   position: relative;
+   z-index: 2;
+   top: -300px;
+   left: -60px;
+   font-weight: bold;
+   font-family: 'ariel bold';
+   border-color: blueviolet 5px;
+}
