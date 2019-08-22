@@ -66,3 +66,24 @@ li {
    font-family: 'ariel bold';
    border-color: blueviolet 5px;
 }
+#columnL {
+ width: 328px;
+ height: 100px;
+ background-color: lightcoral;
+ float: left;
+ position: relative;
+ top: -150px;
+ left: 50px;
+ text-align: center;
+
+}
+#columnR {
+ width: 512px; 
+ height: 100px;
+ background-color: brown; 
+ float: right;
+ position: relative;
+ top: -212.5px;
+ left: -50px;
+ text-align: center;
+}
